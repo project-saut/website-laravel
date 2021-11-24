@@ -10,14 +10,14 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 <!-- CSS Libraries -->
-<link rel="stylesheet" href="{{ asset('Backend/summernote/summernote-bs4.css') }}">
-<link rel="stylesheet" href="{{ asset('Backend/codemirror/lib/codemirror.css') }}">
-<link rel="stylesheet" href="{{ asset('Backend/codemirror/theme/duotone-dark.css') }}">
-<link rel="stylesheet" href="{{ asset('Backend/selectric/public/selectric.css') }}">
+<link rel="stylesheet" href="{{ asset('backend/summernote/summernote-bs4.css') }}">
+<link rel="stylesheet" href="{{ asset('backend/codemirror/lib/codemirror.css') }}">
+<link rel="stylesheet" href="{{ asset('backend/codemirror/theme/duotone-dark.css') }}">
+<link rel="stylesheet" href="{{ asset('backend/selectric/public/selectric.css') }}">
 
 <!-- Template CSS -->
-<link rel="stylesheet" href="{{ asset('Backend/css/style.css') }}">
-<link rel="stylesheet" href="{{ asset('Backend/css/components.css') }}">
+<link rel="stylesheet" href="{{ asset('backend/css/style.css') }}">
+<link rel="stylesheet" href="{{ asset('backend/css/components.css') }}">
 </head>
 
 <body>
@@ -91,17 +91,17 @@ Copyright &copy; 2018 <div class="bullet"></div> Design By <a href="https://nauv
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-<script src="{{ asset('Backend/js/stisla.js') }}"></script>
+<script src="{{ asset('backend/js/stisla.js') }}"></script>
 
 <!-- JS Libraies -->
-<script src="{{ asset('Backend/summernote/summernote-bs4.js') }}"></script>
-<script src="{{ asset('Backend/codemirror/lib/codemirror.js') }}"></script>
-<script src="{{ asset('Backend/codemirror/mode/javascript/javascript.js') }}"></script>
-<script src="{{ asset('Backend/selectric/public/jquery.selectric.min.js')}}"></script>
+<script src="{{ asset('backend/summernote/summernote-bs4.js') }}"></script>
+<script src="{{ asset('backend/codemirror/lib/codemirror.js') }}"></script>
+<script src="{{ asset('backend/codemirror/mode/javascript/javascript.js') }}"></script>
+<script src="{{ asset('backend/selectric/public/jquery.selectric.min.js')}}"></script>
 
 <!-- Template JS File -->
-<script src="{{ asset('Backend/js/scripts.js') }}"></script>
-<script src="{{ asset('Backend/js/custom.js') }}"></script>
+<script src="{{ asset('backend/js/scripts.js') }}"></script>
+<script src="{{ asset('backend/js/custom.js') }}"></script>
 
 <!-- Page Specific JS File -->
 </body>

@@ -13,11 +13,11 @@
   integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 <!-- CSS Libraries -->
-<link rel="stylesheet" href="{{ asset('Backend/css/selectric.css') }}">
+<link rel="stylesheet" href="{{ asset('backend/css/selectric.css') }}">
 
 <!-- Template CSS -->
-<link rel="stylesheet" href="{{ asset('Backend/css/style.css') }}">
-<link rel="stylesheet" href="{{ asset('Backend/css/components.css') }}">
+<link rel="stylesheet" href="{{ asset('backend/css/style.css') }}">
+<link rel="stylesheet" href="{{ asset('backend/css/components.css') }}">
 </head>
 
 <body>
@@ -27,7 +27,7 @@
       <div class="row">
         <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-8 offset-lg-2 col-xl-8 offset-xl-2">
           <div class="login-brand">
-            <img src="{{ asset('Backend/img/stisla-fill.svg') }}" alt="logo" width="100" class="shadow-light rounded-circle">
+            <img src="{{ asset('backend/img/stisla-fill.svg') }}" alt="logo" width="100" class="shadow-light rounded-circle">
           </div>
 
           <div class="card card-primary">
@@ -101,18 +101,18 @@
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-<script src="{{ asset('Backend/js/stisla.js') }}"></script>
+<script src="{{ asset('backend/js/stisla.js') }}"></script>
 
 <!-- JS Libraies -->
-<script src="{{ asset('Backend/js/jquery.pwstrength.min.js') }}"></script>
-<script src="{{ asset('Backend/js/jquery.selectric.min.js') }}"></script>
+<script src="{{ asset('backend/js/jquery.pwstrength.min.js') }}"></script>
+<script src="{{ asset('backend/js/jquery.selectric.min.js') }}"></script>
 
 <!-- Template JS File -->
-<script src="{{ asset('Backend/js/scripts.js') }}"></script>
-<script src="{{ asset('Backend/js/custom.js') }}"></script>
+<script src="{{ asset('backend/js/scripts.js') }}"></script>
+<script src="{{ asset('backend/js/custom.js') }}"></script>
 
 <!-- Page Specific JS File -->
-<script src="{{ asset('Backend/js/auth-register.js') }}"></script>
+<script src="{{ asset('backend/js/auth-register.js') }}"></script>
 </body>
 
 </html>

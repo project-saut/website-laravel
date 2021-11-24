@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
     <!----- Hover CSS ------->
-    <link rel="stylesheet" href="{{ asset('Frontend/css/hover.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/hover.css') }}">
     <title>Projects | Saut Manurung</title>
 </head>
 

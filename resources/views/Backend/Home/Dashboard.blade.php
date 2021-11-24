@@ -20,8 +20,8 @@
 <div id="app">
 <div class="main-wrapper">
 <div class="navbar-bg"></div>
-@include('Backend.Home.Penggalan.Navbar')
-@include('Backend.Home.Penggalan.sidebar')
+@include('Backend.Home.penggalan.Navbar')
+@include('Backend.Home.penggalan.sidebar')
 <!-- Main Content -->
 <div class="main-content">
 <section class="section">

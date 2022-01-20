@@ -12,18 +12,19 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('Frontend/index');
-});
-Route::get('/blog', function () {
-    return view('Frontend/blog');
-});
-Route::get('/about', function () {
-    return view('Frontend/about');
-});
-Route::get('/projects', function() {
-    return view('Frontend/projects');
+Route::group(['middleware'=>['XSS']],function(){
+    Route::get('/', function () {
+        return view('Frontend/index');
+    });
+    Route::get('/blog', function () {
+        return view('Frontend/blog');
+    });
+    Route::get('/about', function () {
+        return view('Frontend/about');
+    });
+    Route::get('/projects', function() {
+        return view('Frontend/projects');
+    });
 });
 Route::get('/uji', function() {
     return view('Backend/Home/Post');

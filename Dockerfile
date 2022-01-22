@@ -49,8 +49,8 @@ COPY docker/start-container /usr/local/bin/start-container
 COPY docker/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 COPY docker/php.ini /etc/php/8.0/cli/conf.d/99-sail.ini
 RUN chmod +x /usr/local/bin/start-container
-RUN composer update
 ADD . /var/www/html
+RUN composer update
 RUN chown -R sail:www-data storage
 RUN chown -R sail:www-data bootstrap/cache
 RUN chmod -R 775 storage

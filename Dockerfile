@@ -55,5 +55,5 @@ RUN chown -R sail:www-data bootstrap/cache
 RUN chmod -R 775 storage
 RUN chmod -R 775 bootstrap/cache
 RUN cp .env.example .env
-
+RUN composer update
 ENTRYPOINT ["start-container"]
